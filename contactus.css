@@ -1,0 +1,396 @@
+* ,*:before, *:after {
+    box-sizing:border-box;
+    padding: 0em;
+    margin: 0em;
+    font-size: 16px;
+    text-decoration: none;
+    list-style: none;
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/*Default formatting */
+
+body {
+    
+    justify-content:center;
+    max-width: 1230px;
+    margin: 0 auto;
+}
+
+h1,
+h2, 
+h3 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 1em;
+}
+
+h1{
+    font-size: 3.4em;
+    text-align: center;
+
+}
+
+h2 {
+    font-size: 2.1em;
+    text-align: center;
+    align-items: center;}
+
+h3 {
+    font-size: 1.5em;
+    text-align: center;
+    
+}
+
+h4{
+    opacity: 0.5;
+    padding: 0.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: smaller;
+}
+
+h5, h6 {
+    font-size: 1.8em;
+}
+p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.2em;
+    line-height: 1.4em;
+    margin-bottom: 0.5em;
+    
+}
+
+/* layout */
+
+
+.logo {
+    display:flex;
+    justify-content: flex-start;
+    text-align: left;
+    width: 90px;;
+    height: 90px;
+}
+
+header{
+    text-align: center;
+    gap: 1em;
+    background-image: url(../images/background-gradient-green-color-modern-abstract-designs_343694-2102.avif);
+    background-repeat: repeat;
+    height: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 1230px;
+}
+
+
+
+
+ button{
+    align-items: center;
+    margin-top: 5px;
+    background-color: rgb(76, 175, 80);
+    color: white;
+    cursor: pointer;
+    padding: 5px;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+    border-radius: 4px;
+    margin-bottom: 1em;
+
+ }
+ button:hover {
+    background-color: aqua;
+  }
+ 
+ 
+
+  .MainTitle {
+    flex: 1;
+    text-align: center;
+    display: inline-block;
+    justify-content: center;
+ }
+ 
+ 
+ .Image1 {
+    width: 100px;
+    height: 100px;
+ }
+ 
+ .Image2 {
+    width: 100px;
+    height: 100px;
+ }
+ .h2{
+    display: inline-block;
+    flex: 1;
+    justify-content: space-around;
+   
+    
+ }
+
+ .mainimage{
+    float: left;
+    padding: 0.5em;
+    margin-top:5em;
+    height: 120px;
+    width:120px;
+   
+ }
+ 
+
+header {
+    grid-area: header;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+main {
+    grid-area: main;
+    padding:2em;
+    margin: 1em;
+    background-color:bisque;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    width: 1230px;
+    margin-right: 1em;
+}
+ aside{
+    grid-area: aside;
+    margin-top:0;
+    
+ }
+
+
+
+/* image */
+
+.image7
+
+{
+    width:100px;
+    height: 100px;
+    
+}
+.image8
+
+{
+    width:100px;
+    height: 100px;
+    
+}
+.image9
+
+{
+    width:100px;
+    height: 100px;
+    
+}
+.image10
+
+{
+    width:100px;
+    height: 100px;
+    
+}
+
+ 
+    
+
+/* Navigation */
+
+#main-nav {
+    width: 100%;
+    background-color: #566;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0em;
+    width: 1230px;
+
+}
+
+
+
+
+
+
+#main-nav > ul {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+  
+  
+#main-nav > ul >  li > a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+    color: black;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 0.25s;
+}
+
+#main-nav > ul > li > a:hover {
+    background-color: green;
+}
+
+
+
+/* Header */
+header > h1 {
+    text-align: center;
+    width: 100%;
+    margin: 20px 0;
+    border-bottom: 2px solid black;
+    padding-bottom: 2em;
+}
+
+footer > p {
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 20px;
+}
+
+.footer-top {
+
+    display: flex;
+    justify-content: space-around;
+    background-color:#ffbe47;
+    width: 1230px; 
+    padding: 1em;
+    height: 100px;
+    margin-bottom: 0em;
+    margin-left: 1em;
+   
+    
+   
+}
+
+.copyright{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 0em;
+    background-color:#ffbe47;
+    width: 1230px;
+    padding: 1em;
+    margin-left: 1em;
+}
+
+
+    
+ 
+/* contact us styling*/
+
+.contact-form {
+    width: 800px;
+    margin: 0 auto;
+      height: 600px;
+  }
+  
+  h2 {
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  label {
+    font-size: 16px;
+    font-weight: 100;
+    display: block;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  textarea {
+    height: 150px;
+  }
+  
+  button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+
+  .container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  
+  }
+  
+  .blog-section {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+  }
+  
+  .blog-box {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 10px;
+  }
+
+  p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    
+    
+  }
+  
+  .blog-box h2 {
+    margin-top: 0;
+  }
+  
+  .blog-box a {
+    display: block;
+    margin-top: 10px;
+
+  }
+  
+  .image-section {
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  .image-section img {
+    width: 45%;
+    height: auto;
+  }
+  
+
